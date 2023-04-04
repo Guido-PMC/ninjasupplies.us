@@ -13,8 +13,8 @@ const ProductTrending = () => {
                <div className="row align-items-end">
                   <div className="col-xxl-6 col-xl-6 col-lg col-md-8">
                      <div className="section__title-wrapper mb-50">
-                        <h2 className="section__title">Ultimos <br /> Productos Cargados</h2>
-                        <p>Aprovecha antes que lo lleve otro.</p>
+                        <h2 className="section__title">Last <br /> Procuts </h2>
+                        <p>Hurry!</p>
                      </div>
                   </div>
                   <div className="col-xxl-6 col-xl-6 col-lg col-md-4">
@@ -48,7 +48,7 @@ const ProductTrending = () => {
                                     <Link href="/product-details">{product?.title}</Link>
                                  </h3>
                                  <div className="trending__author">
-                                    <p>by <a href="#">Themepure</a></p>
+                                    <p>by <a href="#">Ninja Supplies LLC</a></p>
                                  </div>
                               </div>
                            </div>

@@ -57,10 +57,6 @@ const ProductDetailsArea = () => {
                                     <div className="product__social m-social grey-bg-2">
                                        <h4 className="product__social-title">Follow us</h4>
                                        <ul>
-                                          <li><a href="#" className="fb"><i className="fab fa-facebook-f"></i></a></li>
-                                          <li><a href="#" className="tw"><i className="fab fa-twitter"></i></a></li>
-                                          <li><a href="#" className="pin"><i className="fab fa-pinterest-p"></i></a></li>
-                                          <li><a href="#" className="link"><i className="fab fa-linkedin-in"></i></a></li>
                                        </ul>
                                     </div>
                                  </div>
@@ -179,66 +175,6 @@ const ProductDetailsArea = () => {
                               </div>
                            </div>
                         </div>
-                     </div>
-                  </div>
-               </div>
-               <div className="col-xxl-4 col-xl-4 col-lg-4">
-                  <div className="product__details-sidebar ml-30">
-                     <div className="product__proprietor white-bg mb-30">
-                        <div className="product__proprietor-head mb-25">
-                           <div className="product__prorietor-info mb-20 d-flex justify-content-between">
-                              <div className="product__proprietor-avater d-flex align-items-center">
-                                 <div className="product__proprietor-thumb">
-                                    <img src="assets/img/product/proprietor/proprietor-1.jpg" alt="" />
-                                 </div>
-                                 <div className="product__proprietor-name">
-                                    <h5><a href="#">Justin Case</a></h5>
-                                    <a href="#">View Profile</a>
-                                 </div>
-                              </div>
-                              <div className="product__proprietor-price">
-                                 <span className="d-flex align-items-start"><span>$</span>{product?.price}</span>
-                              </div>
-                           </div>
-                           <div className="product__proprietor-text">
-                              <p>Jeffrey arse over tit give us a bell old posh morish wellies cheeky.</p>
-                           </div>
-                        </div>
-                        <div className="product__proprietor-body fix">
-                           <ul className="mb-10 fix">
-                              <li>
-                                 <h6>Downloads:</h6>
-                                 <span>44</span>
-                              </li>
-                              <li>
-                                 <h6>Released On:</h6>
-                                 <span>16 February 2021</span>
-                              </li>
-                              <li>
-                                 <h6>Version:</h6>
-                                 <span>1.0</span>
-                              </li>
-                              <li>
-                                 <h6>Compatibility:</h6>
-                                 <span>Elementor</span>
-                              </li>
-                              <li>
-                                 <h6>Framework:</h6>
-                                 <span>Redux:</span>
-                              </li>
-                           </ul>
-                           <span >
-                              <a style={{cursor:'pointer'}} onClick={handleCartProduct} className="m-btn m-btn-2 w-100 mb-20"> <span></span> Add To Cart</a>
-
-                           </span>
-                           <a href="https://themeforest.net/item/zibber-business-consulting-wordpress-theme/30120392" rel="noreferrer" target="_blank" className="m-btn m-btn-border w-100"> <span></span> Preview Project</a>
-                        </div>
-                     </div>
-                     <div className="sidebar__banner" style={{ background: `url(assets/img/banner/sidebar-banner.jpg)`, backgroundRepeat: 'no-repeat', backgroundPosition: 'center', backgroundSize: 'cover' }}>
-                        <h4 className="sidebar__banner-title">Check Out <br />Our free Templates</h4>
-                        <Link href="/product">
-                           <a className="m-btn m-btn-white"> <span></span> free template</a>
-                        </Link>
                      </div>
                   </div>
                </div>
