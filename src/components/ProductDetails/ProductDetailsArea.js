@@ -27,13 +27,7 @@ const ProductDetailsArea = () => {
                         <div className="product__tab mb-40">
                            <ul className="nav nav-tabs" id="proTab" role="tablist">
                               <li className="nav-item" role="presentation">
-                                 <button className="nav-link active" id="overview-tab" data-bs-toggle="tab" data-bs-target="#overview" type="button" role="tab" aria-controls="overview" aria-selected="true">Informacion</button>
-                              </li>
-                              <li className="nav-item" role="presentation">
-                                 <button className="nav-link" id="support-tab" data-bs-toggle="tab" data-bs-target="#support" type="button" role="tab" aria-controls="support" aria-selected="false">Garantia</button>
-                              </li>
-                              <li className="nav-item" role="presentation">
-                                 <button className="nav-link" id="envios-tab" data-bs-toggle="tab" data-bs-target="#envios" type="button" role="tab" aria-controls="envios" aria-selected="false">Envios</button>
+                                 <button className="nav-link active" id="overview-tab" data-bs-toggle="tab" data-bs-target="#overview" type="button" role="tab" aria-controls="overview" aria-selected="true">Information</button>
                               </li>
                            </ul>
                         </div>
@@ -45,7 +39,7 @@ const ProductDetailsArea = () => {
                                     <p>{product?.description}</p>
                                     <p>{``}</p>
                                     <div className="product__features mt-40">
-                                       <h3 className="product__overview-title">Informacion Tecnica:</h3>
+                                       <h3 className="product__overview-title">Technic Information:</h3>
                                        <ol>
                                           <div>
                                              <ul>
@@ -54,11 +48,6 @@ const ProductDetailsArea = () => {
                                           </div>                                     
                                        </ol>
                                     </div>   
-                                    <div className="product__social m-social grey-bg-2">
-                                       <h4 className="product__social-title">Follow us</h4>
-                                       <ul>
-                                       </ul>
-                                    </div>
                                  </div>
                               </div>
                               <div className="tab-pane fade" id="support" role="tabpanel" aria-labelledby="support-tab">

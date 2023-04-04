@@ -7,7 +7,8 @@ const productData = [
         category:'Electronics',
         price:'',
         tag:'Electronics',
-        description:''
+        description:'Info general del producto',
+        informacionTecnica: ['Data info technica 1', 'data2']
     },
     {
         id:'2',
@@ -16,7 +17,9 @@ const productData = [
         title:'Airpods Pro 2',
         category:'Electronics',
         price:'',
-        tag:'Electronics'
+        tag:'Electronics',
+        description:'Info general del producto',
+        informacionTecnica: ['Data info technica 1', 'data2']
     },
     {
         id:'3',
@@ -26,6 +29,8 @@ const productData = [
         category:'Electronics',
         price:'',
         tag:'Electronics',
+        description:'Info general del producto',
+        informacionTecnica: ['Data info technica 1', 'data2']
     },
     {
         id:'4',
@@ -35,6 +40,8 @@ const productData = [
         category:'Electronics',
         price:'',
         tag:'Electronics',
+        description:'Info general del producto',
+        informacionTecnica: ['Data info technica 1', 'data2']
     }
 ]
 

@@ -143,9 +143,9 @@ const Product = () => {
                   </div>
                 </div>
                 <div className="sidebar__banner" style={{ background: `url(assets/img/banner/sidebar-banner.jpg)`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }} >
-                  <h4 className="sidebar__banner-title">Enterate todas las <br />Novedades</h4>
+                  <h4 className="sidebar__banner-title">Ask for <br />our Price list</h4>
                   <Link href="/product">
-                    <a className="m-btn m-btn-white"> <span></span> Instagram</a>
+                    <a className="m-btn m-btn-white"> <span></span> Contact US</a>
                   </Link>
                 </div>
               </div>
@@ -169,7 +169,7 @@ const Product = () => {
                           <div className="product__thumb-btn transition-3">
                         
                               <a style={{cursor:'pointer'}} onClick={() => handleClick(item)} className="m-btn m-btn-6 mb-15">
-                                Comprar
+                                Buy
                               </a>
                           </div>
                         </div>
@@ -187,7 +187,7 @@ const Product = () => {
                               <a >{item?.title}...</a>
                             </Link>
                           </h3>
-                          <p className="product__author">por <a href="#">TuCompuGamer</a></p>
+                          <p className="product__author">by <a href="#">Ninja Supplies LLC</a></p>
                         </div>
                       </div>
                     </div>

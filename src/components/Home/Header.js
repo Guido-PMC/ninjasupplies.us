@@ -38,9 +38,9 @@ const Header = () => {
                         <div className="main-menu">
                            <nav id="mobile-menu">
                               <ul>
-                                 <li><Link href="/"><a>Inicio</a></Link></li>
-                                 <li><Link href="/product"><a>Tienda</a></Link></li>
-                                 <li><Link href="/contact"><a >Contacto</a></Link></li>
+                                 <li><Link href="/"><a>Home</a></Link></li>
+                                 <li><Link href="/product"><a>Products</a></Link></li>
+                                 <li><Link href="/contact"><a >Contact</a></Link></li>
                               </ul>
                            </nav>
                         </div>
@@ -53,14 +53,7 @@ const Header = () => {
                                     < a> <i className="far fa-unlock"></i> Log In</a>
                                  </Link>}
                            </div>
-                           <div className="header__cart d-none d-sm-block">
-                              <Link href="/cart">
-                                 <a className="cart-toggle-btn">
-                                    <i className="far fa-shopping-cart"></i>
-                                    <span>{quantity}</span>
-                                 </a>
-                              </Link>
-                           </div>
+
                            <div className="sidebar__menu d-lg-none" onClick={handleShow}>
                               <div className="sidebar-toggle-btn" id="sidebar-toggle">
                                  <span className="line"></span>

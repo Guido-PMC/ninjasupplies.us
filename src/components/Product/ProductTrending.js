@@ -20,7 +20,7 @@ const ProductTrending = () => {
                   <div className="col-xxl-6 col-xl-6 col-lg col-md-4">
                      <div className="trending__more d-flex justify-content-md-end  mb-50">
                         <Link href="/product">
-                           <a className="m-btn m-btn-border"><span></span>Ver todos los productos</a>
+                           <a className="m-btn m-btn-border"><span></span>See all products</a>
                         </Link>
                      </div>
                   </div>
